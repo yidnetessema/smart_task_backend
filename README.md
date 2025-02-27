@@ -49,10 +49,6 @@ http://localhost:8080/api/v1/
 ## Contributing
 Contributions are welcome! Feel free to **fork this repo**, **submit issues**, or **send pull requests**.
 
-## License
-This project is open-source under the **MIT License**.
-
----
 
 Happy coding! 🚀
 
