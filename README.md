@@ -33,7 +33,7 @@ Ensure you have the following installed:
    ```
 2. **Navigate to the project directory**:
    ```sh
-   cd smarttask-springboot
+   cd smart_task_backend
    ```
 3. **Build and run the application**:
    ```sh
