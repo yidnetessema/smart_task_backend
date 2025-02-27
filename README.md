@@ -52,3 +52,7 @@ Contributions are welcome! Feel free to **fork this repo**, **submit issues**, o
 
 Happy coding! 🚀
 
+
+## Contact
+For any inquiries, feel free to reach out via yidnekachewtessema367@gmail.com.
+
