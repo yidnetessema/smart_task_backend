@@ -32,7 +32,12 @@ public class SecurityConfiguration {
                 httpSecurityCorsConfigurer.configurationSource(request ->
                         corsConfiguration.applyPermitDefaultValues()
                 )).csrf(AbstractHttpConfigurer::disable)
-                .authorizeHttpRequests(auth -> auth.requestMatchers("/api/v1/auth/**", "/smart-task/api/v1/auth/**").permitAll().anyRequest().authenticated())
+                .authorizeHttpRequests(auth -> auth.requestMatchers(
+                        "/api/v1/auth/**",
+                        "/smart-task/api/v1/auth/**",
+                        "/api/docs/**",
+                        "/swagger/**"
+                ).permitAll().anyRequest().authenticated())
                 .sessionManagement(s -> s.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .authenticationProvider(authenticationProvider)
                 .addFilterBefore(jwtAuthFilter, UsernamePasswordAuthenticationFilter.class);

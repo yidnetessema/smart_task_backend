@@ -44,7 +44,7 @@ public class Task {
     @Column(name = "priority", nullable = false)
     private TaskPriority priority;
 
-    @Column(columnDefinition = "INTEGER default 0")
+    @Column(columnDefinition = "INTEGER default 1")
     private int status;
 
     @ManyToOne
