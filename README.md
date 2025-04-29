@@ -9,6 +9,8 @@ SmartTask is a lightweight, scalable **Spring Boot** application designed to man
 - **Database Integration**: Uses **Spring Data JPA** with an embedded **H2 database** (configurable for PostgreSQL) for persistence.
 - **Kafka-Powered Email Service**: Implements **Apache Kafka** for asynchronous email notifications (task assignments, completions, or overdue alerts).
 - **RESTful API Endpoints**: Seamless integration with front-end applications or external services.
+- **Swagger UI**: Interactive API documentation for easy testing and exploration of endpoints.
+- **Vault Integration**: Securely manage application secrets using **HashiCorp Vault**.
 - **Error Handling**: Graceful exception management and meaningful response codes for better debugging.
 
 ## Tech Stack
@@ -18,6 +20,9 @@ SmartTask is a lightweight, scalable **Spring Boot** application designed to man
 - **H2 Database** (in-memory, configurable for PostgreSQL)
 - **Lombok** for reducing boilerplate code
 - **Apache Kafka** for event-driven notifications
+- **Springdoc OpenAPI (Swagger UI)** for interactive API docs
+- **HashiCorp Vault** for secure secret management
+
 
 ## Getting Started
 ### Prerequisites
